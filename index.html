@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>龙豆跑步 UI 隐私政策 / Dragon Pod Run Privacy Policy</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+         max-width: 46rem; margin: 0 auto; padding: 1.2rem 1rem 4rem; color: #1c1c1e;
+         line-height: 1.65; background: #fafafa; }
+  h1 { font-size: 1.45rem; margin-bottom: .2rem; }
+  h2 { font-size: 1.1rem; margin-top: 1.6rem; border-bottom: 1px solid #ddd; padding-bottom: .25rem; }
+  .date { color: #666; font-size: .9rem; }
+  .en { border-top: 3px double #bbb; margin-top: 2.5rem; }
+  code { background: #eee; padding: 0 .3rem; border-radius: 3px; font-size: .92em; }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+  th, td { border: 1px solid #ccc; padding: .4rem .55rem; text-align: left; vertical-align: top; }
+  th { background: #f0f0f0; }
+</style>
+</head>
+<body>
+
+<h1>龙豆跑步 UI — 隐私政策</h1>
+<p class="date">生效日期：2026-10-07</p>
+
+<p>本政策说明「龙豆跑步 UI」（下称"本应用"）——一款 Garmin Connect IQ 跑步数据字段（Data Field）——如何处理信息。本应用<strong>不具有访问互联网的权限</strong>（其应用清单未声明任何网络权限），因此本应用自身不向任何服务器发送任何数据。</p>
+
+<h2>我们不收集个人信息</h2>
+<p>本应用没有账号系统，不要求注册，不收集姓名、邮箱、位置或任何可识别个人身份的信息，也不包含广告、统计或第三方分析组件。</p>
+
+<h2>应用内的数据处理</h2>
+<table>
+  <tr><th>处理内容</th><th>用途</th><th>去向</th></tr>
+  <tr><td>蓝牙（BLE）扫描与连接</td><td>查找并连接龙豆跑步传感器，接收跑步动态数据（如步频、触地时间、功率等）。可在设置中按广播名称指定目标传感器。</td><td>仅在手表本地实时使用；扫描结果不记录、不上传。</td></tr>
+  <tr><td>FIT 活动开发者字段</td><td>把您在设置中选择的龙豆指标写入本次活动的 FIT Record（仅写入您手表上的活动文件）。</td><td>保存在手表本地活动中；是否同步由您与 Garmin（佳明）的设置决定。</td></tr>
+  <tr><td>用户资料中的体重</td><td>读取 Garmin 用户资料中的体重，用于按厂商约定换算功率显示单位。</td><td>仅本地计算，不传出。</td></tr>
+  <tr><td>解锁码 / 设备码</td><td>高级设置的解锁校验在手表本地完成。</td><td>不发送到任何地方（无网络权限）。</td></tr>
+  <tr><td>应用设置</td><td>主题、标题语言、指标选择等偏好。</td><td>保存在手表本地，卸载即删除。</td></tr>
+</table>
+
+<h2>权限清单</h2>
+<p>本应用在 Garmin Connect IQ 清单中声明的全部权限及用途：</p>
+<ul>
+  <li><code>BluetoothLowEnergy</code> — 扫描并连接龙豆跑步传感器。</li>
+  <li><code>FitContributor</code> — 向本地活动 FIT 文件写入开发者字段。</li>
+  <li><code>UserProfile</code> — 读取体重用于功率单位换算。</li>
+</ul>
+
+<h2>数据存储与删除</h2>
+<p>本应用自身不建立任何持久化数据存储；写入的 FIT 开发者字段随您的活动文件存在于手表/ Garmin 生态中，可按 Garmin 提供的方式查看或删除活动。卸载本应用即删除其全部本地设置。</p>
+
+<h2>第三方服务</h2>
+<p>本应用不接入任何第三方服务。通过 Garmin Connect 同步活动数据（如适用）由 Garmin 依其自身的隐私政策处理，与本应用无关。</p>
+
+<h2>政策变更</h2>
+<p>如本政策更新，将在本页发布并更新生效日期。功能变化导致的数据处理变化会在应用商店更新说明中提示。</p>
+
+<h2>联系方式</h2>
+<p>如对本政策有疑问，请联系：<strong>SUPPORT_EMAIL_PLACEHOLDER</strong></p>
+
+<!-- ============ English ============ -->
+
+<div class="en" lang="en">
+<h1>Dragon Pod Run — Privacy Policy</h1>
+<p class="date">Effective date: 2026-10-07</p>
+
+<p>This policy describes how "Dragon Pod Run" (a Garmin Connect IQ running data field, hereafter "the app") handles information. The app <strong>has no permission to access the Internet</strong> (no network permission is declared in its manifest), so the app itself does not send any data to any server.</p>
+
+<h2>We do not collect personal information</h2>
+<p>The app has no account system, requires no registration, collects no name, email, location or other personally identifiable information, and contains no advertising, analytics, or third-party tracking components.</p>
+
+<h2>Data handling inside the app</h2>
+<table>
+  <tr><th>Processing</th><th>Purpose</th><th>Where it goes</th></tr>
+  <tr><td>Bluetooth (BLE) scan &amp; connection</td><td>Find and connect to a Longdou running sensor to receive running-dynamics data (cadence, ground contact time, power, etc.). An advertised-name filter can be set in settings.</td><td>Used in real time on the watch only; scan results are not recorded or uploaded.</td></tr>
+  <tr><td>FIT developer fields</td><td>Write the Longdou metrics you select in settings into FIT Records of the current activity (only into the activity file on your watch).</td><td>Stored in the local activity; whether it syncs is controlled by you and Garmin.</td></tr>
+  <tr><td>Weight in user profile</td><td>Read the weight from your Garmin user profile to convert power display units per the vendor's convention.</td><td>Local computation only; never transmitted.</td></tr>
+  <tr><td>Unlock / device code</td><td>Validation of the advanced-settings unlock code happens locally on the watch.</td><td>Not sent anywhere (no network permission).</td></tr>
+  <tr><td>App settings</td><td>Preferences such as theme, label language and metric selection.</td><td>Stored locally on the watch; removed on uninstall.</td></tr>
+</table>
+
+<h2>Permissions</h2>
+<p>All permissions declared by the app and their purposes:</p>
+<ul>
+  <li><code>BluetoothLowEnergy</code> — scan and connect to the Longdou running sensor.</li>
+  <li><code>FitContributor</code> — write developer fields into local activity FIT files.</li>
+  <li><code>UserProfile</code> — read weight for power unit conversion.</li>
+</ul>
+
+<h2>Storage and deletion</h2>
+<p>The app keeps no persistent data store of its own. FIT developer fields live inside your activity files in the Garmin ecosystem and can be viewed or deleted using the means Garmin provides. Uninstalling the app removes all of its local settings.</p>
+
+<h2>Third-party services</h2>
+<p>The app integrates no third-party services. Syncing activity data via Garmin Connect (if applicable) is handled by Garmin under Garmin's own privacy policy and is outside this app's scope.</p>
+
+<h2>Changes to this policy</h2>
+<p>If this policy is updated, the revised version will be published on this page with a new effective date. Material changes to data handling will be noted in the store release notes.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <strong>SUPPORT_EMAIL_PLACEHOLDER</strong></p>
+</div>
+
+</body>
+</html>
